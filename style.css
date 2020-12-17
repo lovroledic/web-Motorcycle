@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: #060507;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 70px 0 35px;
+    box-sizing: border-box;
+    width: 73.48%;
+    height: 100px;
+
+    background-color: inherit;
+}
+
+.nav-item {
+    padding: 15px;
+    
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 1.3vw;
+}
+
+#logo {
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    letter-spacing: 3px;
+
+    margin-right: 4vw;
+    padding: 15px;
+    display: inline-block;
+}
+
+#logo div /* Ikona uz logo */ {
+    display: inline-block;
+    vertical-align: top;
+    width: 1vw;
+    height: 1vw;
+
+    background-image: url(assets/logo-icon.png);
+    background-size: cover;
+}
+
+#gold-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26.52%;
+}
+
+.content {
+    position: relative;
+    padding-bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container {
+    position: relative;
+    width: 80%;
+}
+
+#img {
+    width: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+
+    background-color: #060507;
+}
+
+.stat {
+    margin: 24px 24px 0;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.stat:last-child {
+    margin-bottom: 24px;
+}
+
+.stat-name {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    color: #3f3e44;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+}
+
+.stat-small {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8vw;
+}
+
+.stat-big {
+    color: #FFF;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 2.13vw;
+    margin: 10px 0;
+}
+
+.info {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 74.14%;
+
+    display: flex;
+    align-items: center;
+}
+
+.x /* Traka unutar info */ {
+    display: flex;
+    align-items: center;
+
+    color: #FFF;
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.x-elem {
+    margin-left: 4.42vw;
+}
+
+.x-elem:last-child {
+    margin-right: 4.42vw;
+}
+
+.info p {
+    width: 23vw;
+
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+#line-white {
+    width: 12.97vw;
+    height: 2px;
+    background-color: #FFF;
+}
+
+#line-orange {
+    width: 8.03vw;
+    height: 2px;
+    background-color: #A75B12;
+}
